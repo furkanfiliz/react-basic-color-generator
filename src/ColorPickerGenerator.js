@@ -87,6 +87,7 @@ class ColorPickerGenerator extends Component {
         this.colorPalet.push(`rgb(${getRed},${getGreen},${getBlue})`);
         this.colorPaletLight.push(`rgb(${getRed},${getGreen},${getBlue})`);
       // }
+      console.log('deneme')
     }
     for (let d = 0; d < 12; d++) {
     this.rdark = this.rdark - value;
