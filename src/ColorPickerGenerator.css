@@ -1,0 +1,27 @@
+.color-contaniner {
+  display: flex;
+  width: 100%;
+}
+
+.color-selector {
+  padding: 15px;
+}
+
+.created-color-picker {
+  flex: 1;
+  padding: 15px;
+  overflow: hidden;
+}
+.created-color-picker .title {
+  padding: 30px 15px;
+  color: #fff;
+  font-size: 12px;
+  font-size: 12;
+}
+
+.created-color-picker .pallette {
+}
+.created-color-picker .pallette .colorItem {
+  padding: 3px 15px;
+  text-shadow: 1px 1px #999999;
+}
